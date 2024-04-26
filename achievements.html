@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="achievement.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" href="achievements.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Achievements</title>
+ </head>
+<div id="navbar">
+    <div>
+    <img src="images/logo2.png" alt="logo" width="10%">
+    <h3><a style="color: #225d76;">Femtor</a> Network</h3>
+    </div>
+
+    <div id="navbar-texts">
+        <a href="home.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="goal.html">Goal</a>
+        <a href="todo.html">To-Do</a>
+        
+
+    </div>
+</div>
+
+
+ <div id="myDIV" class="header">
+    <h2 style="margin:5px">My achievements</h2>
+  <input type="text" id="myInput" placeholder="Note down your achievement...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+ </div>
+
+
+
+<ul id="myUL">
+  <li>First Achievemnt</li>
+  
+</ul>
+
+<script>
+
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+
+// var list = document.querySelector('ul');
+// list.addEventListener('click', function(ev) {
+//   if (ev.target.tagName === 'LI') {
+//    ev.target.classList.toggle('checked');
+//   }
+// }, false);
+
+
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("You must write something!");
+  } else {
+    document.getElementById("myUL").appendChild(li);
+  }
+  document.getElementById("myInput").value = "";
+
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+}
+</script>
+
+</body>
+</html>

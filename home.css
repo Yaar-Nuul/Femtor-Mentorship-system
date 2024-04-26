@@ -1,0 +1,167 @@
+a{
+    text-decoration: none;
+    color: #082133;
+}
+#navbar-texts:hover{
+    color: chartreuse;
+}
+#navbar{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    color: rgb(30, 80, 82);
+    font-size: larger;
+
+}
+#navbar-texts{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    font-size: larger;
+    margin-left: 400px;
+}
+
+#landing-page{
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+}
+#landing-page-text{
+    padding: 30px;
+    width: 50%;
+
+}
+
+input{
+    background-color:rgb(112, 206, 206);
+    padding: 12px;
+    border-radius: 7px;
+}
+#footer{
+    display: flex;
+    gap: 60px;
+    padding: 5px;
+    color: aliceblue;
+    background-color:#082133;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+
+
+
+@media all and (min-width: 600px)and (max-width: 1024px){
+    a{
+        text-decoration: none;
+        color: #082133;
+    }
+    #navbar-texts:hover{
+        color: chartreuse;
+    }
+    #navbar{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        color: rgb(30, 80, 82);
+        font-size: larger;
+    
+    }
+    #navbar-texts{
+        display: flex;
+        gap: 40px;
+        padding: 20px;
+        font-size: larger;
+        margin-left: 400px;
+    }
+    
+    #landing-page{
+        display: flex;
+        gap: 20px;
+        padding: 30px;
+        font-size: 25px;
+        font-family: 'Times New Roman';
+    }
+    #landing-page-text{
+        padding: 30px;
+        width: 50%;
+    
+    }
+    
+    input{
+        background-color:rgb(112, 206, 206);
+        padding: 12px;
+        border-radius: 7px;
+    
+    }
+    #footer{
+        display: flex;
+        gap: 60px;
+        padding: 5px;
+        color: aliceblue;
+        background-color:#082133;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+
+}
+
+
+
+@media all  and (min-width: 100px )and (max-width:600px ){
+    a{
+        text-decoration: none;
+        color: #082133;
+    }
+    #navbar-texts:hover{
+        color: chartreuse;
+    }
+    #navbar{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        color: rgb(30, 80, 82);
+        font-size: larger;
+    
+    }
+    #navbar-texts{
+        display: flex;
+        gap: 40px;
+        padding: 20px;
+        font-size: larger;
+        margin-left: 400px;
+    }
+    
+    #landing-page{
+        display: flex;
+        gap: 20px;
+        padding: 30px;
+        font-size: 25px;
+        font-family: 'Times New Roman';
+    }
+    #landing-page-text{
+        padding: 30px;
+        width: 50%;
+    
+    }
+    
+    input{
+        background-color:rgb(112, 206, 206);
+        padding: 12px;
+        border-radius: 7px;
+    
+    }
+    #footer{
+        display: flex;
+        gap: 60px;
+        padding: 5px;
+        color: aliceblue;
+        background-color:#082133;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+}

@@ -1,0 +1,32 @@
+#navbar{
+    display: flex;
+    gap: 50px;
+    border: solid; color: #003153;
+    padding: 10px;
+    border-radius: 30px;
+}
+#navbar-texts{
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+#goal-input{
+    padding-top: 100px;
+    text-align: center;
+}
+input{
+    padding: 30px;
+    width: 60%;
+    border: solid;
+    border-radius: 18px;
+    font-size: 18px;
+}
+.back{
+    display: flex;
+    gap: 100px;
+}

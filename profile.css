@@ -1,0 +1,33 @@
+#detail{
+    display: flex;
+    gap: 100px;
+
+}
+.detail-text{
+    padding: 30px;
+}
+#bio{
+    padding: 20px;
+}
+#profile{
+    padding: 20px;
+}
+input{
+    padding: 18px;
+    width: 400px;
+}
+#navbar{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    color: rgb(30, 80, 82);
+    font-size: larger;
+
+}
+#navbar-texts{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    font-size: larger;
+    margin-left: 400px;
+}
