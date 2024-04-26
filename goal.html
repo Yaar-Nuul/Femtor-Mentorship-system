@@ -18,19 +18,83 @@
    </div>
    </div>
 
-   <div id="goal-input">
-    <h1>Hello Yaya, What is your main goal today</h1>
-    <input type="text", name="text", placeholder="Write down your today's main goal(s)">
-   </div>
-     <br>
-   <div id="objective">
+   <div id="myDIV" class="header">
+    <h2 style="margin:5px">Hello Yaya, What is Your Main Goal Today</h2>
+  <input type="text" id="myInput" placeholder="Note down your achievement...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+ </div>
+
+
+
+<ul id="myUL">
+  <li>First Goal</li>
+  
+</ul>
+
+<script>
+
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("Write dow!");
+  } else {
+    document.getElementById("myUL").appendChild(li);
+  }
+  document.getElementById("myInput").value = "";
+
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+}
+</script>
+     
+
+   <!-- <div id="objective">
       <h3>Objective(s):</h3>
-   </div>
+      <input type="text", >
+   </div> -->
+   <br>
    <div class="back">
+    <div>
    <button>Back</button>
-   <p>Completion date:</p>
-   <input type="date" name="date" >
    </div>
+   <b>Completion date:</b>
+   <input type="date" name="date" style="width: 20%;" >
+   </div>
+
 
 </body>
 </html>

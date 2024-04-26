@@ -1,13 +1,20 @@
+a{
+    text-decoration: none;
+    color: rgb(30, 80, 82);
+}
 #detail{
     display: flex;
     gap: 100px;
+    margin-left: 100px;
 
 }
 .detail-text{
-    padding: 30px;
+    padding: 20px;
 }
 #bio{
     padding: 20px;
+    background-color: rgb(30, 80, 82);
+    color: aliceblue;
 }
 #profile{
     padding: 20px;
@@ -30,4 +37,155 @@ input{
     padding: 20px;
     font-size: larger;
     margin-left: 400px;
+}
+#logo{
+    padding: 20px;
+    margin-left: 60px;
+}
+
+
+
+@media all and (min-width: 600px)and (max-width: 1024px){
+
+    a{
+        text-decoration: none;
+        color: rgb(30, 80, 82);
+    }
+    #detail{
+        display: flex;
+        gap: 100px;
+        margin-left: 100px;
+    
+    }
+    .detail-text{
+        padding: 20px;
+    }
+    #bio{
+        padding: 20px;
+        background-color: rgb(30, 80, 82);
+        color: aliceblue;
+    }
+    #profile{
+        padding: 20px;
+    }
+    input{
+        padding: 18px;
+        width: 400px;
+    }
+    #navbar{
+        display: flex;
+        gap: 40px;
+        padding: 20px;
+        color: rgb(30, 80, 82);
+        font-size: larger;
+    
+    }
+    #navbar-texts{
+        display: flex;
+        gap: 40px;
+        padding: 20px;
+        font-size: larger;
+        margin-left: 400px;
+    }
+    #logo{
+        padding: 20px;
+        margin-left: 60px;
+    }
+
+}
+
+
+/* @media(){
+
+a{
+    text-decoration: none;
+    color: rgb(30, 80, 82);
+}
+#detail{
+    display: flex;
+    gap: 100px;
+    margin-left: 100px;
+
+}
+.detail-text{
+    padding: 20px;
+}
+#bio{
+    padding: 20px;
+    background-color: rgb(30, 80, 82);
+    color: aliceblue;
+}
+#profile{
+    padding: 20px;
+}
+input{
+    padding: 18px;
+    width: 400px;
+}
+#navbar{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    color: rgb(30, 80, 82);
+    font-size: larger;
+
+}
+#navbar-texts{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    font-size: larger;
+    margin-left: 400px;
+}
+#logo{
+    padding: 20px;
+    margin-left: 60px;
+}
+} */
+
+@media all  and (min-width: 100px )and (max-width:600px ){
+    a{
+        text-decoration: none;
+        color: rgb(30, 80, 82);
+    }
+    #detail{
+        display: flex;
+        gap: 100px;
+        margin-left: 100px;
+    
+    }
+    .detail-text{
+        padding: 20px;
+    }
+    #bio{
+        padding: 20px;
+        background-color: rgb(30, 80, 82);
+        color: aliceblue;
+    }
+    #profile{
+        padding: 20px;
+    }
+    input{
+        padding: 18px;
+        width: 400px;
+    }
+    #navbar{
+        display: flex;
+        gap: 40px;
+        padding: 20px;
+        color: rgb(30, 80, 82);
+        font-size: larger;
+    
+    }
+    #navbar-texts{
+        display: flex;
+        gap: 40px;
+        padding: 20px;
+        font-size: larger;
+        margin-left: 400px;
+    }
+    #logo{
+        padding: 20px;
+        margin-left: 60px;
+    }
 }
