@@ -42,6 +42,12 @@ a:hover{
     padding: 30px;
     width: 50%;
 }
+#sign{
+    display: flex;
+    gap: 200px;
+    padding: 2opx;
+
+}
 #footer{
     display: flex;
     gap: 60px;
@@ -50,4 +56,135 @@ a:hover{
     background-color:#082133;
     justify-content: center;
     margin-top: 40px;
+}
+
+
+@media all and (min-width: 600px)and (max-width: 1024px){
+
+#container{
+    width: 100%;
+    margin: auto;
+}
+ #navbar{
+    display: flex;
+    gap: 100px;
+    /* padding-top: 20px; */
+    padding-left: 40px; 
+ 
+ }
+    
+
+a{
+    text-decoration: none;
+    
+}
+#navbar-text{
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    margin-left: 1500px;
+    padding: 20px;
+
+    
+}
+a:hover{
+    color: rgb(206, 112, 218);
+    
+}
+#landing-page{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    font-size: 25px;
+    
+}
+.landing-page-text{
+    padding: 30px;
+    width: 50%;
+}
+#sign{
+    display: flex;
+    gap: 200px;
+    padding: 2opx;
+
+}
+#footer{
+    display: flex;
+    gap: 60px;
+    padding: 5px;
+    color: aliceblue;
+    background-color:#082133;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+}
+
+
+
+
+@media all and (min-width: 100px)and (max-width: 600px){
+
+
+#container{
+    width: 100%;
+    margin: auto;
+}
+ #navbar{
+    display: flex;
+    gap: 100px;
+    /* padding-top: 20px; */
+    padding-left: 40px; 
+ 
+ }
+    
+
+a{
+    text-decoration: none;
+    
+}
+#navbar-text{
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    margin-left: 1500px;
+    padding: 20px;
+
+    
+}
+a:hover{
+    color: rgb(206, 112, 218);
+    
+}
+#landing-page{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    /* font-size: 12px; */
+    
+}
+.landing-page-text{
+    padding: 30px;
+    width: 30%;
+}
+#sign{
+    display: flex;
+    gap: 100px;
+    padding: 2opx;
+
+}
+#footer{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    color: aliceblue;
+    background-color:#082133;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
 }

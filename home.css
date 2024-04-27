@@ -2,35 +2,35 @@ a{
     text-decoration: none;
     color: #082133;
 }
-#navbar-texts:hover{
-    color: chartreuse;
+a:hover{
+    color: lightblue;
 }
 #navbar{
     display: flex;
     gap: 40px;
-    padding: 20px;
+    padding: 12px;
     color: rgb(30, 80, 82);
     font-size: larger;
 
 }
 #navbar-texts{
     display: flex;
-    gap: 40px;
+    gap: 100px;
     padding: 20px;
     font-size: larger;
-    margin-left: 400px;
+    margin-left: 500px;
 }
 
 #landing-page{
     display: flex;
-    gap: 50px;
-    padding: 30px;
-    font-size: 25px;
+    gap: 20px;
+    padding: 12px;
     font-family: 'Times New Roman';
 }
 #landing-page-text{
-    padding: 30px;
+    padding: 40px;
     width: 50%;
+    font-size: 24px;
 
 }
 
@@ -41,7 +41,7 @@ input{
 }
 #footer{
     display: flex;
-    gap: 60px;
+    gap: 300px;
     padding: 5px;
     color: aliceblue;
     background-color:#082133;
@@ -58,8 +58,8 @@ input{
         text-decoration: none;
         color: #082133;
     }
-    #navbar-texts:hover{
-        color: chartreuse;
+    a:hover{
+        color: rgb(149, 208, 247);
     }
     #navbar{
         display: flex;
@@ -71,10 +71,10 @@ input{
     }
     #navbar-texts{
         display: flex;
-        gap: 40px;
+        gap: 30px;
         padding: 20px;
-        font-size: larger;
-        margin-left: 400px;
+        /* font-size: large; */
+        margin-left: 200px;
     }
     
     #landing-page{
@@ -132,7 +132,7 @@ input{
         gap: 40px;
         padding: 20px;
         font-size: larger;
-        margin-left: 400px;
+        margin-left: 100px;
     }
     
     #landing-page{

@@ -1,19 +1,20 @@
 #navbar{
-    display: flex;
-    gap: 50px;
-    /* border: solid; color: #003153; */
-    padding: 10px;
-    /* border-radius: 30px; */
-}
-#navbar-texts{
-    display: flex;
-    gap: 100px;
-    padding: 10px;
-    font-size: 20px;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  color: rgb(30, 80, 82);
+  font-size: larger;
 
 }
+#navbar-texts{
+  display: flex;
+  gap: 140px;
+  padding: 30px;
+  font-size: larger;
+  margin-left: 400px;
+}
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 #goal-input{
     padding-top: 100px;
