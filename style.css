@@ -147,7 +147,7 @@ a{
 #navbar-text{
     display: flex;
     gap: 100px;
-    font-size: 20px;
+    font-size: 10px;
     font-family: 'Times New Roman';
     margin-left: 1500px;
     padding: 20px;
@@ -163,7 +163,7 @@ a:hover{
     flex-wrap: wrap;
     gap: 30px;
     padding: 20px;
-    /* font-size: 12px; */
+    font-size: 14px;
     
 }
 .landing-page-text{
@@ -185,6 +185,5 @@ a:hover{
     justify-content: center;
     margin-top: 40px;
 }
-
 
 }

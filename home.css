@@ -131,7 +131,7 @@ input{
         display: flex;
         gap: 40px;
         padding: 20px;
-        font-size: larger;
+        font-size: large;
         margin-left: 100px;
     }
     
@@ -139,7 +139,7 @@ input{
         display: flex;
         gap: 20px;
         padding: 30px;
-        font-size: 25px;
+        font-size: 15px;
         font-family: 'Times New Roman';
     }
     #landing-page-text{
@@ -163,5 +163,10 @@ input{
         justify-content: center;
         margin-top: 40px;
     }
+
+}
+
+
+@media all  and (min-width: 1025px )and (max-width:600px ){
 
 }
